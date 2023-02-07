@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cust_multis",
+  "info": {
+    "displayName": "multi",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "orderInPhase": {
+      "type": "integer"
+    },
+    "multi": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::multi.multi"
+    }
+  }
+}

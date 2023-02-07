@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cust_steps",
+  "info": {
+    "displayName": "step"
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

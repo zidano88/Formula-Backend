@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "singles",
+  "info": {
+    "singularName": "single",
+    "pluralName": "singles",
+    "displayName": "single",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "recommended": {
+      "type": "decimal"
+    },
+    "lowerLimit": {
+      "type": "decimal"
+    },
+    "upperLimit": {
+      "type": "decimal"
+    },
+    "required": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_cust_phases",
+  "info": {
+    "displayName": "phase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phase": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "singlecomponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cust.single"
+    },
+    "multicomponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cust.multi"
+    }
+  }
+}

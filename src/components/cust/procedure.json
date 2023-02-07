@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_cust_procedures",
+  "info": {
+    "displayName": "procedure"
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cust.step"
+    }
+  }
+}

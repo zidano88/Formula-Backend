@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cust_singles",
+  "info": {
+    "displayName": "single",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "orderInPhase": {
+      "type": "integer"
+    },
+    "single": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::single.single"
+    }
+  }
+}
