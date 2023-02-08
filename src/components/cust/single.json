@@ -13,6 +13,18 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::single.single"
+    },
+    "recommended": {
+      "type": "decimal"
+    },
+    "lowerLimit": {
+      "type": "decimal"
+    },
+    "upperLimit": {
+      "type": "decimal"
+    },
+    "required": {
+      "type": "boolean"
     }
   }
 }

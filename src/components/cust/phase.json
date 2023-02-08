@@ -11,12 +11,12 @@
       "required": true,
       "unique": false
     },
-    "singlecomponent": {
+    "singleComponent": {
       "type": "component",
       "repeatable": true,
       "component": "cust.single"
     },
-    "multicomponent": {
+    "multiComponent": {
       "type": "component",
       "repeatable": true,
       "component": "cust.multi"
