@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "renderbuild": "npm install & strapi build",
+    "renderbuild": "npm install & npm run build",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
